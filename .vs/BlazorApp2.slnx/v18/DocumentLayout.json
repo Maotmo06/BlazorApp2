@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DC48CA5-18D6-4854-A36E-CDACA3B00D5C}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6DC48CA5-18D6-4854-A36E-CDACA3B00D5C}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\components\\pages\\issues.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\components\\pages\\issues.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC48CA5-18D6-4854-A36E-CDACA3B00D5C}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{6DC48CA5-18D6-4854-A36E-CDACA3B00D5C}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\services\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\services\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\models\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\models\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\models\\issuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\models\\issuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\Program.cs",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Program.cs",
+              "RelativeToolTip": "BlazorApp2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:21:34.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IssueService.cs",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Services\\IssueService.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\Services\\IssueService.cs",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Services\\IssueService.cs",
+              "RelativeToolTip": "BlazorApp2\\Services\\IssueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:20:23.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Models\\Issue.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\Models\\Issue.cs",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Models\\Issue.cs",
+              "RelativeToolTip": "BlazorApp2\\Models\\Issue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:16:55.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IssueStatus.cs",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Models\\IssueStatus.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\Models\\IssueStatus.cs",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Models\\IssueStatus.cs",
+              "RelativeToolTip": "BlazorApp2\\Models\\IssueStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:16:18.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp2\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:13:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlazorApp2",
+              "Title": "Issues.razor",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Pages\\Issues.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Components\\Pages\\Issues.razor",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Pages\\Issues.razor",
+              "RelativeToolTip": "BlazorApp2\\Components\\Pages\\Issues.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:12:49.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlazorApp2.csproj",
               "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj",
               "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.csproj",
               "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj",
               "RelativeToolTip": "BlazorApp2\\BlazorApp2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-30T11:06:54.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\.gitignore",
               "RelativeDocumentMoniker": "BlazorApp2\\.gitignore",
@@ -43,8 +145,7 @@
               "RelativeToolTip": "BlazorApp2\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-01-30T11:06:00.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T11:06:00.384Z"
             }
           ]
         }

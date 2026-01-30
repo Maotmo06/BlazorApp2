@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\components\\pages\\issues.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\components\\pages\\issues.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|c:\\users\\maotm\\source\\repos\\blazorapp2\\blazorapp2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E279D6BD-F9A1-3B83-2DE9-C1F46BEE0E76}|BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Layout\\NavMenu.razor*",
+              "RelativeToolTip": "BlazorApp2\\Components\\Layout\\NavMenu.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:13:41.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Issues.razor",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Pages\\Issues.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\Components\\Pages\\Issues.razor",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\Components\\Pages\\Issues.razor*",
+              "RelativeToolTip": "BlazorApp2\\Components\\Pages\\Issues.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:12:49.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlazorApp2.csproj",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.csproj",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\BlazorApp2.csproj",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-30T11:06:54.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\.gitignore",
+              "RelativeDocumentMoniker": "BlazorApp2\\.gitignore",
+              "ToolTip": "C:\\Users\\maotm\\source\\repos\\BlazorApp2\\BlazorApp2\\.gitignore",
+              "RelativeToolTip": "BlazorApp2\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-01-30T11:06:00.384Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

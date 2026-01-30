@@ -1,0 +1,34 @@
+﻿@page "/issues"
+@using YourApp.Models
+@inject YourApp.Services.IssueService IssueService
+
+<h1>Issues</h1>
+
+@if (IssueService.GetAll().Count == 0)
+{
+    <p>Inga ärenden.</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titel</th>
+                <th>Status</th>
+                <th>Skapad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var issue in IssueService.GetAll())
+            {
+                <tr>
+                    <td>@issue.Id</td>
+                    <td>@issue.Title</td>
+                    <td>@issue.Status</td>
+                    <td>@issue.CreatedUtc.ToString("u")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
