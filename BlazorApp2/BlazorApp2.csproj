@@ -11,4 +11,8 @@
     <Content Include=".gitignore" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>

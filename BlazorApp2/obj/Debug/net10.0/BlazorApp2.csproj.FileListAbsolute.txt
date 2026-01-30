@@ -85,3 +85,4 @@ C:\Users\maotm\source\repos\BlazorApp2\BlazorApp2\obj\Debug\net10.0\refint\Blazo
 C:\Users\maotm\source\repos\BlazorApp2\BlazorApp2\obj\Debug\net10.0\BlazorApp2.pdb
 C:\Users\maotm\source\repos\BlazorApp2\BlazorApp2\obj\Debug\net10.0\BlazorApp2.genruntimeconfig.cache
 C:\Users\maotm\source\repos\BlazorApp2\BlazorApp2\obj\Debug\net10.0\ref\BlazorApp2.dll
+C:\Users\maotm\source\repos\BlazorApp2\BlazorApp2\bin\Debug\net10.0\Data\users.json

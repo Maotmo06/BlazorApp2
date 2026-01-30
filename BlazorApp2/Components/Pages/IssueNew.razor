@@ -1,0 +1,39 @@
+﻿@page "/issues/new"
+@using YourApp.Models
+@inject YourApp.Services.IssueService IssueService
+@inject NavigationManager Nav
+
+<h1>New Issue</h1>
+
+<EditForm Model="model" OnValidSubmit="Create">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div style="margin-bottom:12px;">
+        <label>Titel</label><br />
+        <InputText @bind-Value="model.Title" />
+        <div style="color:darkred;">
+            <ValidationMessage For="@(() => model.Title)" />
+        </div>
+    </div>
+
+    <div style="margin-bottom:12px;">
+        <label>Beskrivning</label><br />
+        <InputTextArea @bind-Value="model.Description" />
+        <div style="color:darkred;">
+            <ValidationMessage For="@(() => model.Description)" />
+        </div>
+    </div>
+
+    <button type="submit">Skapa</button>
+</EditForm>
+
+@code {
+    private IssueCreateModel model = new();
+
+    private void Create()
+    {
+        var created = IssueService.Add(model.Title, model.Description);
+        Nav.NavigateTo($"/issues/{created.Id}");
+    }
+}

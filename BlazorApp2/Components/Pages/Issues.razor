@@ -1,12 +1,13 @@
 ﻿@page "/issues"
 @using YourApp.Models
 @inject YourApp.Services.IssueService IssueService
-
+<p><a href="/issues/new">Create new issue</a></p>
 <h1>Issues</h1>
 
 @if (IssueService.GetAll().Count == 0)
 {
     <p>Inga ärenden.</p>
+
 }
 else
 {

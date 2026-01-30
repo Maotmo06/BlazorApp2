@@ -1,0 +1,69 @@
+﻿@page "/issues/{id:int}"
+@using YourApp.Models
+@inject YourApp.Services.IssueService IssueService
+
+<h1>Issue Details</h1>
+
+@if (issue is null)
+{
+    <p>Ärendet hittades inte.</p>
+    <p><a href="/issues">Back to list</a></p>
+    <td><a href="/issues/@issue.Id">@issue.Title</a></td>
+}
+else
+{
+
+    <p><strong>Id:</strong> @issue.Id</p>
+    <p><strong>Titel:</strong> @issue.Title</p>
+    <p><strong>Status:</strong> @issue.Status</p>
+    <p><strong>Skapad:</strong> @issue.CreatedUtc.ToString("u")</p>
+
+    <h3>Description</h3>
+    <p>@issue.Description</p>
+    <div style="margin-top:12px;">
+        <label>Update status</label><br />
+        <select @onchange="OnStatusChange" value="@issue.Status.ToString()">
+            <option value="Open">Open</option>
+            <option value="InProgress">InProgress</option>
+            <option value="Done">Done</option>
+        </select>
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(statusMessage))
+    {
+        <p>@statusMessage</p>
+    }
+    <p><a href="/issues">Back to list</a></p>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private Issue? issue;
+
+    protected override void OnParametersSet()
+    {
+        issue = IssueService.GetById(id);
+    }
+    private string? statusMessage;
+
+    private void OnStatusChange(ChangeEventArgs e)
+    {
+        if (issue is null) return;
+
+        var raw = e.Value?.ToString();
+        if (string.IsNullOrWhiteSpace(raw)) return;
+
+        if (!Enum.TryParse<IssueStatus>(raw, out var newStatus))
+        {
+            statusMessage = "Ogiltigt statusvärde.";
+            return;
+        }
+
+        var ok = IssueService.UpdateStatus(issue.Id, newStatus);
+        statusMessage = ok ? "Status uppdaterad." : "Kunde inte uppdatera status.";
+
+        // Hämta igen för att säkerställa att UI visar senaste data
+        issue = IssueService.GetById(issue.Id);
+    }
+}
+

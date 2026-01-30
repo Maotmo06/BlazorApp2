@@ -1,0 +1,60 @@
+﻿@page "/reference/users"
+@using YourApp.Models
+@inject YourApp.Services.ReferenceService ReferenceService
+
+<h1>Reference Users</h1>
+
+@if (loading)
+{
+    <p>Laddar...</p>
+}
+else if (!string.IsNullOrWhiteSpace(error))
+{
+    <p style="color:darkred;">@error</p>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Namn</th>
+                <th>Email</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in users)
+            {
+                <tr>
+                    <td>@u.Id</td>
+                    <td>@u.Name</td>
+                    <td>@u.Email</td>
+                    <td>@u.Team</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private bool loading = true;
+    private string? error;
+    private List<RefUser> users = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            users = await ReferenceService.GetUsersFromLocalJsonAsync();
+        }
+        catch (Exception ex)
+        {
+            error = ex.Message;
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+}
